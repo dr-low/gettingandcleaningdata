@@ -1,12 +1,12 @@
 # Getting and Cleaning Data - Course Project
 
-The R script, 'run_analysis.R', does the following:
-
-1. Download the dataset if it does not already exist in the working directory.
-   Data for this project:
+Data for this project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+The R script, 'run_analysis.R', does the following:
+
+1. Download the dataset if it does not already exist in the working directory.
 2. Load the activity and feature info
 3. Load both the traning and test datasets, keeping only those columns which
    reflect a mean or standard deviation
